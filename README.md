@@ -290,7 +290,7 @@ for method in ["random", "kmeans", "sa", "kmeans_sa"]:
 
 ## Known Limitations
 
-- The `visualization` module referenced in `part-routing/main.py` is not included; comment out `from visualization.plot import plot_comparison` and the `plot_comparison(all_df)` call if running without it, or use `anal.py` for post-hoc visualization.
+
 - The web visualization frontend is a development prototype and may require adjustments for production use.
 - Large-scale experiments (k≥24) may require significant memory (≥16 GB) and computation time.
 
